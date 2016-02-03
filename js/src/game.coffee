@@ -23,6 +23,7 @@ Game =
     $('time').value = 0
     Game.clearHoles()
     alert('Game Over.\nYour score is:  '+Game.totalhits)
+    $('#score').val("0")
   play: ->
     Game.stopTimer()
     if Game.playing

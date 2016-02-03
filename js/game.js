@@ -28,7 +28,8 @@ Game = {
     Game.playing = false;
     $('time').value = 0;
     Game.clearHoles();
-    return alert('Game Over.\nYour score is:  ' + Game.totalhits);
+    alert('Game Over.\nYour score is:  ' + Game.totalhits);
+    return $('#score').val("0");
   },
   play: function() {
     Game.stopTimer();
