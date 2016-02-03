@@ -1,0 +1,21 @@
+{
+  "name": "hitdots",
+  "authors": [
+    "murari"
+  ],
+  "description": "Hit the Dots",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

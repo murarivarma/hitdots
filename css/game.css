@@ -1,0 +1,22 @@
+#landing {
+  font-family: Lato; }
+  #landing .score-board {
+    margin: 2vmin 2vmin; }
+    #landing .score-board .startstop_button {
+      color: black;
+      margin-left: 12vmin;
+      margin-right: 12vmin;
+      background-color: #bdc3c7; }
+    #landing .score-board #timer-label {
+      margin-left: 20vmin; }
+    #landing .score-board #score {
+      margin-right: 20vmin; }
+  #landing .dots-table-div {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
+    #landing .dots-table-div .dots-table {
+      margin: 10vmin 40%; }
+  #landing #instructions {
+    text-align: center; }
+  #landing .github-image {
+    margin-top: 6vmin; }

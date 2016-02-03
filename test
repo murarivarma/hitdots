@@ -1,0 +1,15 @@
+hithead: (id) ->
+  if playing == false
+    Game.clearHoles()
+    return
+  if Game.currentpos != id
+    Game.totalhits += -1
+    #$('input:second').attr "value", "#{Game.totalhits}"
+    dot = $('td input')[id]
+    dot.checked = false
+  else
+    Game.totalhits += 1
+    #$('input:second').attr "value", "#{Game.totalhits}"
+    Game.launch()
+    dot = $('td input')[id]
+    dot.checked = false
