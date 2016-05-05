@@ -10,7 +10,7 @@
     #landing .score-board #timer-label {
       margin-left: 20vmin; }
     #landing .score-board #score {
-      margin-right: 20vmin; }
+      margin-right: 13vmin; }
   #landing .dots-table-div {
     border-top: 1px solid black;
     border-bottom: 1px solid black; }
@@ -20,3 +20,5 @@
     text-align: center; }
   #landing .github-image {
     margin-top: 6vmin; }
+
+/*# sourceMappingURL=game.css.map */
